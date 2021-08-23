@@ -286,7 +286,8 @@ services:
 ```
 * 登录influxDB  
 浏览器打开： http://你的ip:3004。  
-添加 username 和 password 都为 datasource  ，Database Name:telegraf
+添加 username 和 password 都为 datasource  ，Database Name:telegraf  
+在Kapacitor配置时间只用配置Username为datasource，不用配置密码  
   
 注意：用户名和密码这里先填 datasource，后面会说明。此外，这个 docker 镜像自动为我们在 InfluxDB 创建了名为 datasource 的 db。  
 * 登录grafana  
